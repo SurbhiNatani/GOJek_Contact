@@ -16,6 +16,24 @@
 		3A70E5C923210AFC0004AF4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A70E5C723210AFC0004AF4A /* LaunchScreen.storyboard */; };
 		3A70E5D423210AFD0004AF4A /* GJIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A70E5D323210AFD0004AF4A /* GJIOSTests.swift */; };
 		3A70E5DF23210AFD0004AF4A /* GJIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A70E5DE23210AFD0004AF4A /* GJIOSUITests.swift */; };
+		3A82F49423261F5000B376F1 /* EmailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A82F49323261F5000B376F1 /* EmailTests.swift */; };
+		3A82F49623261F6400B376F1 /* PhoneNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A82F49523261F6400B376F1 /* PhoneNumberTests.swift */; };
+		3A82F49A2326260100B376F1 /* DynamicListner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A82F4992326260100B376F1 /* DynamicListner.swift */; };
+		3A82F49D2326557B00B376F1 /* ProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A82F49B2326557B00B376F1 /* ProgressView.xib */; };
+		3A82F49E2326557B00B376F1 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A82F49C2326557B00B376F1 /* ProgressView.swift */; };
+		3AA03111232246A400896D17 /* ProfileDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA03110232246A400896D17 /* ProfileDetailVC.swift */; };
+		3AA0311323225D2500896D17 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0311223225D2500896D17 /* EditProfileVC.swift */; };
+		3AA031192322745000896D17 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA031182322745000896D17 /* ContactViewModel.swift */; };
+		3AA0311D2322747600896D17 /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0311C2322747600896D17 /* EditProfileViewModel.swift */; };
+		3AA0311F232276B400896D17 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0311E232276B400896D17 /* ContactModel.swift */; };
+		3AA03127232279BB00896D17 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA03126232279BB00896D17 /* AppUtility.swift */; };
+		3AA03129232279CB00896D17 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA03128232279CB00896D17 /* AppConstants.swift */; };
+		3AA0312B232279DA00896D17 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0312A232279DA00896D17 /* Extensions.swift */; };
+		3AA0312D2322830300896D17 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0312C2322830300896D17 /* ServerManager.swift */; };
+		F3BDD30C2323987900D5BEDB /* SFUIText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3BDD3002323987800D5BEDB /* SFUIText-Regular.ttf */; };
+		F3BDD30D2323987900D5BEDB /* SFUIText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3BDD3012323987800D5BEDB /* SFUIText-Semibold.ttf */; };
+		F3BDD3132323987900D5BEDB /* SFUIText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3BDD3072323987800D5BEDB /* SFUIText-Bold.ttf */; };
+		F3BDD3162323987900D5BEDB /* SFUIText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3BDD30A2323987800D5BEDB /* SFUIText-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +69,24 @@
 		3A70E5DA23210AFD0004AF4A /* GJIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A70E5DE23210AFD0004AF4A /* GJIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GJIOSUITests.swift; sourceTree = "<group>"; };
 		3A70E5E023210AFD0004AF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A82F49323261F5000B376F1 /* EmailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTests.swift; sourceTree = "<group>"; };
+		3A82F49523261F6400B376F1 /* PhoneNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTests.swift; sourceTree = "<group>"; };
+		3A82F4992326260100B376F1 /* DynamicListner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicListner.swift; sourceTree = "<group>"; };
+		3A82F49B2326557B00B376F1 /* ProgressView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProgressView.xib; path = ../ProgressView.xib; sourceTree = "<group>"; };
+		3A82F49C2326557B00B376F1 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressView.swift; path = ../ProgressView.swift; sourceTree = "<group>"; };
+		3AA03110232246A400896D17 /* ProfileDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailVC.swift; sourceTree = "<group>"; };
+		3AA0311223225D2500896D17 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		3AA031182322745000896D17 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		3AA0311C2322747600896D17 /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		3AA0311E232276B400896D17 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		3AA03126232279BB00896D17 /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		3AA03128232279CB00896D17 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		3AA0312A232279DA00896D17 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3AA0312C2322830300896D17 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		F3BDD3002323987800D5BEDB /* SFUIText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Regular.ttf"; sourceTree = "<group>"; };
+		F3BDD3012323987800D5BEDB /* SFUIText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Semibold.ttf"; sourceTree = "<group>"; };
+		F3BDD3072323987800D5BEDB /* SFUIText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Bold.ttf"; sourceTree = "<group>"; };
+		F3BDD30A2323987800D5BEDB /* SFUIText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,17 +117,20 @@
 		3A68325B232123D300AF0D29 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3A70E5BD23210AFA0004AF4A /* ViewController.swift */,
+				3AA03125232279A500896D17 /* AppUtilityFiles */,
+				3AA031172322736500896D17 /* EditContactModule */,
+				3AA031162322735900896D17 /* ContactDetailModule */,
+				3AA031152322734800896D17 /* ContactModule */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		3A68325C232125CF00AF0D29 /* Cells */ = {
+		3A68325C232125CF00AF0D29 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
 				3A68325D232125CF00AF0D29 /* ContactsCell.swift */,
 			);
-			path = Cells;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		3A70E5AF23210AFA0004AF4A = {
@@ -117,7 +156,8 @@
 		3A70E5BA23210AFA0004AF4A /* GJIOS */ = {
 			isa = PBXGroup;
 			children = (
-				3A68325C232125CF00AF0D29 /* Cells */,
+				F3BDD2FF2323985400D5BEDB /* Fonts */,
+				3AA031142322723700896D17 /* Model */,
 				3A68325B232123D300AF0D29 /* Controllers */,
 				3A70E5BB23210AFA0004AF4A /* AppDelegate.swift */,
 				3A70E5BF23210AFA0004AF4A /* Main.storyboard */,
@@ -133,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				3A70E5D323210AFD0004AF4A /* GJIOSTests.swift */,
+				3A82F49323261F5000B376F1 /* EmailTests.swift */,
+				3A82F49523261F6400B376F1 /* PhoneNumberTests.swift */,
 				3A70E5D523210AFD0004AF4A /* Info.plist */,
 			);
 			path = GJIOSTests;
@@ -145,6 +187,74 @@
 				3A70E5E023210AFD0004AF4A /* Info.plist */,
 			);
 			path = GJIOSUITests;
+			sourceTree = "<group>";
+		};
+		3A82F49F2326558600B376F1 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				3A82F49C2326557B00B376F1 /* ProgressView.swift */,
+				3A82F49B2326557B00B376F1 /* ProgressView.xib */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		3AA031142322723700896D17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AA0311E232276B400896D17 /* ContactModel.swift */,
+				3A82F4992326260100B376F1 /* DynamicListner.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AA031152322734800896D17 /* ContactModule */ = {
+			isa = PBXGroup;
+			children = (
+				3A70E5BD23210AFA0004AF4A /* ViewController.swift */,
+				3AA031182322745000896D17 /* ContactViewModel.swift */,
+				3A68325C232125CF00AF0D29 /* Cell */,
+			);
+			path = ContactModule;
+			sourceTree = "<group>";
+		};
+		3AA031162322735900896D17 /* ContactDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				3AA03110232246A400896D17 /* ProfileDetailVC.swift */,
+			);
+			path = ContactDetailModule;
+			sourceTree = "<group>";
+		};
+		3AA031172322736500896D17 /* EditContactModule */ = {
+			isa = PBXGroup;
+			children = (
+				3AA0311223225D2500896D17 /* EditProfileVC.swift */,
+				3AA0311C2322747600896D17 /* EditProfileViewModel.swift */,
+			);
+			path = EditContactModule;
+			sourceTree = "<group>";
+		};
+		3AA03125232279A500896D17 /* AppUtilityFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3A82F49F2326558600B376F1 /* ProgressView */,
+				3AA03126232279BB00896D17 /* AppUtility.swift */,
+				3AA03128232279CB00896D17 /* AppConstants.swift */,
+				3AA0312A232279DA00896D17 /* Extensions.swift */,
+				3AA0312C2322830300896D17 /* ServerManager.swift */,
+			);
+			path = AppUtilityFiles;
+			sourceTree = "<group>";
+		};
+		F3BDD2FF2323985400D5BEDB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F3BDD3072323987800D5BEDB /* SFUIText-Bold.ttf */,
+				F3BDD30A2323987800D5BEDB /* SFUIText-Medium.ttf */,
+				F3BDD3002323987800D5BEDB /* SFUIText-Regular.ttf */,
+				F3BDD3012323987800D5BEDB /* SFUIText-Semibold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,9 +361,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BDD3132323987900D5BEDB /* SFUIText-Bold.ttf in Resources */,
+				3A82F49D2326557B00B376F1 /* ProgressView.xib in Resources */,
+				F3BDD30D2323987900D5BEDB /* SFUIText-Semibold.ttf in Resources */,
 				3A70E5C923210AFC0004AF4A /* LaunchScreen.storyboard in Resources */,
 				3A70E5C623210AFC0004AF4A /* Assets.xcassets in Resources */,
 				3A70E5C123210AFA0004AF4A /* Main.storyboard in Resources */,
+				F3BDD3162323987900D5BEDB /* SFUIText-Medium.ttf in Resources */,
+				F3BDD30C2323987900D5BEDB /* SFUIText-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +393,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA0312D2322830300896D17 /* ServerManager.swift in Sources */,
 				3A68325E232125D000AF0D29 /* ContactsCell.swift in Sources */,
+				3A82F49E2326557B00B376F1 /* ProgressView.swift in Sources */,
 				3A70E5BE23210AFA0004AF4A /* ViewController.swift in Sources */,
 				3A70E5C423210AFA0004AF4A /* GJIOS.xcdatamodeld in Sources */,
+				3A82F49A2326260100B376F1 /* DynamicListner.swift in Sources */,
+				3AA03111232246A400896D17 /* ProfileDetailVC.swift in Sources */,
+				3AA031192322745000896D17 /* ContactViewModel.swift in Sources */,
+				3AA0311323225D2500896D17 /* EditProfileVC.swift in Sources */,
+				3AA0311D2322747600896D17 /* EditProfileViewModel.swift in Sources */,
 				3A70E5BC23210AFA0004AF4A /* AppDelegate.swift in Sources */,
+				3AA03127232279BB00896D17 /* AppUtility.swift in Sources */,
+				3AA0312B232279DA00896D17 /* Extensions.swift in Sources */,
+				3AA03129232279CB00896D17 /* AppConstants.swift in Sources */,
+				3AA0311F232276B400896D17 /* ContactModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +415,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A82F49623261F6400B376F1 /* PhoneNumberTests.swift in Sources */,
+				3A82F49423261F5000B376F1 /* EmailTests.swift in Sources */,
 				3A70E5D423210AFD0004AF4A /* GJIOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +587,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7986UXK74B;
 				INFOPLIST_FILE = GJIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +606,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7986UXK74B;
 				INFOPLIST_FILE = GJIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -537,6 +667,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7986UXK74B;
 				INFOPLIST_FILE = GJIOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -557,6 +688,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7986UXK74B;
 				INFOPLIST_FILE = GJIOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

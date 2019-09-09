@@ -9,6 +9,8 @@
 import XCTest
 
 class GJIOSUITests: XCTestCase {
+    
+    var app: XCUIApplication!
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -26,9 +28,5 @@ class GJIOSUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
 
 }
